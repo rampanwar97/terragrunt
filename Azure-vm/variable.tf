@@ -22,7 +22,7 @@ locals {
     }
     tmdc = {
       name                       = "azure-linuxvm"
-      resource_group_name        = "Engineering"
+      resource_group_name        = "dem"
       linux_virtual_machine_size = "Standard_DS1_v2"
       location                   = "east us"
       ssh_user                   = "azureuser"
